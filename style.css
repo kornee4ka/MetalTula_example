@@ -1,0 +1,54 @@
+main {
+    width: 1410px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+#information_of_the_shop{
+    height: 40px;
+    background: #242424;
+    display: flex;
+    justify-content:center;
+}
+
+.information_of_the_shop_title{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name_of_the_shop{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 45%;
+    color: #FFFFFF;
+}
+
+.e-mail_address{
+    display: inline;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 40%;
+
+    margin-left: 15px;
+}
+#head_of_the_site{
+    width: 1140px;
+    height: 80px;
+    display: flex;
+
+}
+.logo_of_the_organization{
+    width: 208px;
+    height: 50px;
+}
+.menu_button{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40%;
+    color: rgba(48, 48, 48, 0.5);
+}
+.menu_button > p {
+    display: inline;
+}
