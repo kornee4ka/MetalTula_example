@@ -1,15 +1,15 @@
 main {
-    width: 1410px;
+    width: 1510px;
     height: 100%;
     margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans';
     font-style: normal;
 }
 #information_of_the_shop{
     height: 40px;
     background: #242424;
     display: flex;
-    justify-content:center;
+    justify-content: center;
 }
 
 .information_of_the_shop_title{
@@ -30,25 +30,137 @@ main {
     color: #FFFFFF;
     font-size: 20px;
     line-height: 40%;
-
+    font-weight: bold;
     margin-left: 15px;
 }
 #head_of_the_site{
-    width: 1140px;
     height: 80px;
     display: flex;
+    justify-content: center;
 
 }
+.first_range_of_button{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo_of_the_organization{
     width: 208px;
     height: 50px;
+
 }
-.menu_button{
+.menu_buttons{
     font-weight: 600;
     font-size: 18px;
     line-height: 40%;
     color: rgba(48, 48, 48, 0.5);
 }
-.menu_button > p {
+.menu_button > a {
     display: inline;
+    height: 10px;
+}
+a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40%;
+    color: rgba(48, 48, 48, 0.5);
+    margin-right: 25px;
+}
+.wake-up_call{
+    width: 211px;
+    height: 50px;
+}
+.wake-up_call_2{
+    width: 101px;
+    height: 50px;
+}
+.wake-up_call, .wake-up_call_2 {
+    font-family: Russo One;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 50%;
+    color: #FF4545;
+    border: 2px solid #FF4545;
+    box-sizing: border-box;
+    background:#EEEEEE;
+}
+.wake-up_call:hover {
+    color: #EEEEEE;
+    background: #FF4545;
+    border: none;
+}
+.wake-up_call_2:hover{
+    color: #EEEEEE;
+    background: #FF4545;
+    border: none;
+}
+.separator{
+    width: 1140px;
+    height: 3px;
+    background: #FF4545;
+    margin: 0 auto;
+}
+
+.second_range_of_button{
+   height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    background: #FFFFFF;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.25);
+}
+.buttons_kinds_of_renting{
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+}
+.number_of_phone{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.phone_picture{
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.phone_number{
+    width: 143px;
+    height: 26px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #303030;
+    margin: 0px;
+}
+.basket{
+    width: 20px;
+    height: 15px;
+    margin-top: 15px;
+}
+.New_Catalog{
+    display: flex;
+    justify-content: center;
+    height: 502px;
+}
+.catalog_pictures{
+    width: 1170px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.text_on_catalog_picture{
+    width: 632px;
+    height: 184.74px;
+    position: absolute;
+    font-family: Russo One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 100%;
+    color: #FFFFFF;
 }
