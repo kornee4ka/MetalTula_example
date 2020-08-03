@@ -72,15 +72,16 @@ a {
 .wake-up_call{
     width: 211px;
     height: 50px;
+    font-size: 20px;
 }
 .wake-up_call_2{
     width: 101px;
     height: 50px;
+    font-size: 20px;
 }
-.wake-up_call, .wake-up_call_2 {
+.wake-up_call, .wake-up_call_2, .catalog_button {
     font-family: Russo One;
     font-style: normal;
-    font-size: 20px;
     line-height: 50%;
     color: #FF4545;
     border: 2px solid #FF4545;
@@ -156,6 +157,8 @@ a {
 .text_on_catalog_picture{
     width: 632px;
     height: 184.74px;
+    top: 60px;
+    left: 68px;
     position: absolute;
     font-family: Russo One;
     font-style: normal;
@@ -163,4 +166,33 @@ a {
     font-size: 48px;
     line-height: 100%;
     color: #FFFFFF;
+
+}
+.catalog_button {
+    width: 195px;
+    height: 70.28px;
+    left: 70px;
+    bottom: 136px;
+    font-size: 25px;
+    position: absolute;
+}
+.catalog_button:hover{
+    color: #EEEEEE;
+    background: #FF4545;
+    border: none;
+}
+.welder{
+    position: absolute;
+    height: 502px;
+    left: 726px;
+    top: 0px;
+}
+.carousel{
+    height: 1170;
+    position: absolute;
+    left: 70px;
+    bottom: 18px;
+}
+.arrow_rigth{
+    right: 70px;
 }
