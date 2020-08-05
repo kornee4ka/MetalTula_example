@@ -1,5 +1,5 @@
 main {
-    width: 1510px;
+
     height: 100%;
     margin: 0 auto;
     font-family: 'Open Sans';
@@ -86,15 +86,15 @@ a {
     color: #FF4545;
     border: 2px solid #FF4545;
     box-sizing: border-box;
-    background:#EEEEEE;
+    background:#FFFFFF;
 }
 .wake-up_call:hover {
-    color: #EEEEEE;
+    color: #FFFFFF;
     background: #FF4545;
     border: none;
 }
 .wake-up_call_2:hover{
-    color: #EEEEEE;
+    color: #FFFFFF;
     background: #FF4545;
     border: none;
 }
@@ -110,7 +110,6 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 15px;
     background: #FFFFFF;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.25);
 }
@@ -118,6 +117,7 @@ a {
     width: 1140px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .number_of_phone{
     display: flex;
@@ -140,7 +140,6 @@ a {
 .basket{
     width: 20px;
     height: 15px;
-    margin-top: 15px;
 }
 .New_Catalog{
     display: flex;
@@ -177,7 +176,7 @@ a {
     position: absolute;
 }
 .catalog_button:hover{
-    color: #EEEEEE;
+    color: #FFFFFF;
     background: #FF4545;
     border: none;
 }
@@ -188,11 +187,48 @@ a {
     top: 0px;
 }
 .carousel{
-    height: 1170;
+    width : 1170px;
+    bottom: 20px;
     position: absolute;
-    left: 70px;
-    bottom: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.arrow_rigth{
-    right: 70px;
+.Points{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+.ellips{
+    width: 10px;
+    height: 10px;
+    background: #A8A8A8;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.red{
+    background: #FF4545;
+}
+.Left_arrow{
+    padding-left: 70px;
+}
+.Right_arrow{
+    padding-right: 70px;
+}
+#Safe_bying{
+    height: 340px;
+}
+.border_first_retangle{
+    width: 1170px;
+    background: rgba(255, 69, 69, 0.5);
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 10px;
+}
+.border_second_retangle{
+    height: 320px;
+    border: 10px solid #FFFFFF;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
